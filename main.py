@@ -37,7 +37,7 @@ block_height = window_height // 12
 bullets = []
 
 images = {
-    "brick": ImageTk.PhotoImage(Image.open("images/-color-stone-wall_tanks.jpg").resize((block_width, block_height))),
+    "brick": ImageTk.PhotoImage(Image.open("images/color-stone-wall_tanks.jpg").resize((block_width, block_height))),
     "grass": ImageTk.PhotoImage(Image.open("images/grass_tanks.jpg").resize((block_width, block_height))),
     "bullet_up": ImageTk.PhotoImage((Image.open("images/weapon_tanks.jpg").resize((10, 30)))),
     "bullet_down": ImageTk.PhotoImage((Image.open("images/weapon_tanks.jpg").resize((10, 30)).rotate(180))),
